@@ -12,6 +12,7 @@ This Tkinter-based GUI application allows you to rename multiple files automatic
 
 Documents: .pdf, .doc, .docx, .ppt, .pptx, .xls, .xlsx
 Scripts & Code: .txt, .py, .m, .ipynb
+
 ✅ Auto-Saving in Original Location – Files are renamed without moving.
 
 ✅ Unique Filenames – Prevents overwriting by appending an auto-incrementing counter.
@@ -20,11 +21,11 @@ Scripts & Code: .txt, .py, .m, .ipynb
 
 
 📌 Requirements
+
+🔹 !!! Create an api_key.txt file in the same folder, which should include the OpenAIpenai API key.
+
 🔹 Install dependencies before running:
 
-sh
-Copy
-Edit
 pip install openai tiktoken tkinterdnd2 PyPDF2
 (Python 3.8+ recommended)
 
