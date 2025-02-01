@@ -3,15 +3,22 @@ This Tkinter-based GUI application allows you to rename multiple files automatic
 
 
 ✅ Drag & Drop Support – Drop files directly into the GUI for renaming.
+
 ✅ Folder Selection – Choose a folder to rename all supported files at once.
+
 ✅ ChatGPT Model Selection – Choose between gpt-3.5-turbo, gpt-4o-mini, gpt-4, etc.
+
 ✅ Supports Multiple File Types:
 
 Documents: .pdf, .doc, .docx, .ppt, .pptx, .xls, .xlsx
 Scripts & Code: .txt, .py, .m, .ipynb
 ✅ Auto-Saving in Original Location – Files are renamed without moving.
+
 ✅ Unique Filenames – Prevents overwriting by appending an auto-incrementing counter.
+
 ✅ Live Output Log – Displays renaming process in a scrolling text window.
+
+
 📌 Requirements
 🔹 Install dependencies before running:
 
@@ -43,8 +50,11 @@ Check Output Messages at the bottom of the GUI.
 🔹 OpenAI generates clean, structured filenames based on file content:
 
 SCI Journal Papers → short_title_short_journal_publish_year.pdf
+
 Books → Book_Title_Author_Year.pdf
+
 Code Files → Project_Name_Version.py
+
 If no content is detected, the filename format falls back to:
 ➡ empty_file_TIMESTAMP.extension
 
@@ -66,4 +76,3 @@ Renamed Output:
 
 📜 License
 🔹 MIT License – Free to use and modify.
-🔹 Contributions are welcome! Feel free to open a pull request. 🎯😊
