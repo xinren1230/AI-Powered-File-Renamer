@@ -77,3 +77,5 @@ Renamed Output:
 
 📜 License
 🔹 MIT License – Free to use and modify.
+
+[![Demo Video](https://youtu.be/syGuh8p0T8Q/0.jpg)](https://youtu.be/syGuh8p0T8Q)
